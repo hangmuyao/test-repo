@@ -20,7 +20,7 @@ def question1():
 # In[3]:
 
 
-question1()
+
 
 
 # In[4]:
@@ -35,7 +35,7 @@ def question2():
 # In[5]:
 
 
-question2()
+
 
 
 # In[6]:
@@ -54,7 +54,7 @@ def question3():
 # In[7]:
 
 
-question3()
+
 
 
 # In[8]:
@@ -73,7 +73,7 @@ def question4():
 # In[9]:
 
 
-question4()
+
 
 
 # In[10]:
@@ -94,7 +94,7 @@ def question5():
 # In[11]:
 
 
-question5()
+
 
 
 # In[12]:
@@ -116,7 +116,7 @@ def question6():
 # In[13]:
 
 
-question6()
+
 
 
 # In[14]:
@@ -135,8 +135,6 @@ def question7():
 # In[15]:
 
 
-question7()
-
 
 # In[16]:
 
@@ -150,7 +148,7 @@ def question8():
 # In[17]:
 
 
-question8()
+
 
 
 # In[18]:
@@ -166,7 +164,6 @@ def question9():
 # In[19]:
 
 
-question9()
 
 
 # In[20]:
@@ -174,16 +171,10 @@ question9()
 
 def question10():
     Z = list(range(0,6))
-    if len(Z) == 6:
-        print("The length of the list equals 6")
-    else:
-        print("The length of the list does not equal 6")
+    assert len(Z) == 6, "The length of the list does not equal 6"
 
 
 # In[21]:
-
-
-question10()
 
 
 # In[23]:
